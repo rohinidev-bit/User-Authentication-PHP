@@ -1,0 +1,10 @@
+-----TABLE-----
+user_register	CREATE TABLE `user_register` (
+  `FullName` varchar(255) NOT NULL,
+  `ID` varchar(255) NOT NULL,
+  `Pass` varchar(255) NOT NULL,
+  `superiorID` varchar(255) NOT NULL,
+  `deptCode` varchar(255) NOT NULL,
+  `Institute` varchar(255) NOT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
